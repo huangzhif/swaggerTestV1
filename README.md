@@ -29,3 +29,6 @@ STATICFILES_DIRS = (
 
 修改urls
 
+
+
+![图片说明1](https://github.com/huangzhif/swaggerTestV1/blob/master/static/image/1.png)
