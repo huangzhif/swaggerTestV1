@@ -1,0 +1,11 @@
+{
+
+  "apiVersion": "1.0.5",
+  "swaggerVersion": "1.2",
+  "apis": [
+    {
+      "path": "/account",
+      "description": "用户(12)"
+    }
+  ]
+}

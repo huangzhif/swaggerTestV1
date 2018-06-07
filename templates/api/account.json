@@ -1,0 +1,43 @@
+{
+  "apiVersion": "1.0.5",
+  "swaggerVersion": "1.2",
+  "basePath": "/",
+  "resourcePath": "/account",
+  "produces": [
+    "application/json",
+    "application/xml",
+    "text/plain",
+    "text/html"
+  ],
+  "apis": [
+    {
+      "path": "/api/account/login",
+      "operations": [
+        {
+          "method": "POST",
+          "summary": "用户登录",
+          "notes": "",
+          "nickname": "account__api_account_login_",
+          "parameters": [
+            {
+              "name": "account",
+              "description": "账号",
+              "type": "string",
+              "paramType": "form",
+              "required": true,
+              "allowMultiple": false
+            },
+            {
+              "name": "password",
+              "description": "密码",
+              "type": "string",
+              "paramType": "form",
+              "required": true,
+              "allowMultiple": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
